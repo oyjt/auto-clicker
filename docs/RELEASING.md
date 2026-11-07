@@ -23,8 +23,10 @@ policies must allow the workflow's `contents: write` permission.
 
 ## Record changes
 
-Keep user-visible changes in `CHANGELOG.md`, under `## [Unreleased]`, using
-`### Added`, `### Changed`, `### Fixed` or `### Removed` as needed.
+Keep user-visible changes in `CHANGELOG.md`, under `## [Unreleased]`. Each version
+contains `### English` and `### 简体中文` sections. Within each language, use
+`#### Added`, `#### Changed`, `#### Fixed` or `#### Removed` and their Chinese
+equivalents as needed.
 Before a release, move those changes into a dated version section and leave
 `Unreleased` available for the next version:
 
@@ -33,12 +35,21 @@ Before a release, move those changes into a dated version section and leave
 
 ## [1.1.0] - YYYY-MM-DD
 
-### Added
+### English
+
+#### Added
 
 - Describe the change from the user's point of view.
+
+### 简体中文
+
+#### 新增
+
+- 从用户角度描述这项变更。
 ```
 
-Use exactly one nonempty section per version. Version numbers use three numeric
+Use exactly one nonempty version section containing both languages; do not
+duplicate a version heading for a translation. Version numbers use three numeric
 components (`X.Y.Z`); tags add a `v` prefix (`vX.Y.Z`). Suffixes such as `-beta.1`
 are not currently supported. GitHub's pre-release checkbox is supported with a
 numeric version tag. The initial `1.0.0` entry is prepared for the first release.
