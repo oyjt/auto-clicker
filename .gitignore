@@ -1,0 +1,34 @@
+# Build products and SwiftPM state
+/.build/
+/build/
+/dist/
+/.swiftpm/
+*.app/
+*.dmg
+
+# macOS and per-user IDE state
+.DS_Store
+._*
+xcuserdata/
+*.xcuserstate
+/.idea/
+/.vscode/
+
+# Local agent/design-tool state (keep AGENTS.md and docs/ product/design guides)
+/.impeccable/
+/.agents/
+/.claude/
+/.codex/
+
+# Local secrets and signing credentials
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.key
+*.mobileprovision
+
+# Python helper caches
+__pycache__/
+*.pyc
