@@ -6,15 +6,7 @@ Release tags use `vX.Y.Z`; see [the release guide](docs/RELEASING.md).
 
 ## [Unreleased]
 
-### Changed
-
-- Focused the English and Chinese READMEs on installation and everyday use,
-  with workspace, toolbar and settings previews in both languages.
-- Moved build instructions and implementation notes to the development guide.
-- Grouped product and design documentation under `docs/` and added repository
-  guidance for AI-assisted development in `AGENTS.md`.
-
-## [1.0.0] - 2026-11-07
+## [1.0.0] - 2026-11-08
 
 ### Added
 
@@ -30,3 +22,11 @@ Release tags use `vX.Y.Z`; see [the release guide](docs/RELEASING.md).
 - English default README with a Chinese version and documented release process.
 - GitHub Release workflow producing a universal macOS DMG, SHA-256 checksum
   and version-specific release notes.
+
+### Changed
+
+- Focused the English and Chinese READMEs on installation and everyday use,
+  with workspace, toolbar and settings previews in both languages.
+- Moved build instructions and implementation notes to the development guide.
+- Grouped product and design documentation under `docs/` and added repository
+  guidance for AI-assisted development in `AGENTS.md`.
