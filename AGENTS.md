@@ -37,7 +37,6 @@ them into this file. `README.md` is the English user guide; keep
 - Keep `local.autoclicker.mac` stable unless the task requires a migration;
   changing it can affect saved settings and Accessibility permissions.
 - Record user-visible changes under `Unreleased` in [CHANGELOG.md](CHANGELOG.md).
-  Keep English and Simplified Chinese entries under the same version heading.
   Keep developer details in `docs/`, not in the user-facing READMEs.
 
 ## Verify the change
